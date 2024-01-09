@@ -1,7 +1,5 @@
-var argMoveId, argPlayerMove, argComputerMove;
-
 function printMessage(msg) {
-	var div = document.createElement('div');
+	const div = document.createElement('div');
 	div.innerHTML = msg;
 	document.getElementById('messages').appendChild(div);
 }
@@ -16,11 +14,8 @@ function getMoveName(argMoveId) {
     return 'kamień';
   } else if (argMoveId == 2) {
     return 'papier';
-  } else if (argMoveId == 3) {
-	return 'nożyce';
   } else {
-	printMessage('Nie znam ruchu o id = ' + argMoveId + ' .Zakładam, że chodziło o "kamień".');
-	return 'kamień';
+	return 'nożyce';
   }
 }
 
