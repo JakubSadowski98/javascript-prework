@@ -1,1 +1,1 @@
-# javascript-prework
+# javascript-prework (gra: kamień-papier-nożyce)
