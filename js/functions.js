@@ -1,10 +1,10 @@
-function printMessage(msg) {
+function printMessage(msg) { // tworzy nowy element div i wypełnia go treścią
 	const div = document.createElement('div');
 	div.innerHTML = msg;
 	document.getElementById('messages').appendChild(div);
 }
 
-function clearMessages() {
+function clearMessages() {  // kasuje treść elementu
 	document.getElementById('messages').innerHTML = '';
 }
 
